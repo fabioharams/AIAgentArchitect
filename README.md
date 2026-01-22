@@ -3,24 +3,24 @@ AI Agent Architect with expertise in reviewing document-driven projects, assessi
 
 # Why an AI Agent Architect? #
 
-Many customers are multi-cloud today and the IT teams are facing many challenges like:
+Many customers are multi‑cloud today, and IT teams face several challenges:
 
-- Multi-cloud architectures are becoming each day more complex and it's hard to learn and design right solutions without a strong knowledge.
-- Estimate costs for many projects is a difficult part of the process but necessary if you want to establish a FinOps strategy.
-- Time to analyse these projects for best-practices and cost analysis takes a lot of time and you need to accelerate to avoid impact on IT demands. 
+- Growing complexity: Multi‑cloud architectures are becoming more complex every day. It’s difficult to design the right solutions without strong, hands‑on expertise.
+- Cost estimation: Estimating costs across multiple projects is tough but essential to build a solid FinOps strategy.
+- Time‑consuming reviews: Analyzing projects for best practices and cost optimization takes significant time, and you need to accelerate this work to keep up with IT demand.
 
-The new AI Models (specially after GPT 3.5) increased a lot the analysis proccess, with great accuracy. This setup is referencing to ChatGPT 5.2 but of course you can easily change to new models. One of the challenges. Other technology that improved a lot was the engine to draw diagrams (following C4, fluxogram, etc).
+Recent AI models (especially since GPT‑3.5) have greatly improved the analysis process with high accuracy. This setup references ChatGPT 5.2, but you can easily switch to newer models as they become available. Another area that has advanced significantly is diagram generation — with better support for C4, flowcharts, and similar notations.
 
 # How the Agent works for this scenario #
 
-Normally the IT Teams develop documents with the architecture or planned deployments in a document format (*.DOCX or *.PDF). This solution can extract information from text inside these documents but also can analyse diagrams if present (for example a diagram of proposed architecture/change). 
-Other files that can be analysed but with different outputs:
+Normally, IT teams prepare documents that describe the architecture or planned deployments in formats like *.DOCX or *.PDF. This solution can extract information from the text inside these documents, and it can also analyze diagrams if they are included (for example, a proposed architecture or change diagram).
+Other file types that can be analyzed (with different output quality):
 
-- TF (Terraform files): if you submit *.TF files than the output will be much more precise, because Terraform require to specificy the exactly instance size of the services. 
-- YAML (scenarios for Kubernetes): this solution can provide best practices according to Cloud Provider, but will not be able to specify costs, unless you include a file  in the knowledge base to be used internally for pricing reference. 
-- Diagram (JPEG, etc): if you specify all the parameters in a image (instance size, etc) you can have almost the same result. This option is interesting for customers that has the practice of drwing all the solution in a visual way. 
+- Terraform (.tf): If you submit.tf files, the output will be more precise, because Terraform requires you to specify the exact instance sizes and service configurations.
+- YAML (Kubernetes scenarios): The solution can provide best practices according to the cloud provider, but it cannot estimate costs unless you include a pricing reference file in the internal knowledge base.
+- Diagrams (JPEG, PNG, etc.): If the image clearly specifies all parameters (instance sizes, regions, tiers, etc.), the results can be almost as accurate. This is useful for customers who prefer to draw the full solution visually.
 
-If the document contains estimated volumetry then more accurate will be the architecture and estimated costs. Maybe this is very difficult to estimate when the project begins but brings an accurate result.
+If the document includes estimated volumetry (for example, users per day, requests per second, data size, retention time), the architecture and cost estimates will be more accurate. It can be difficult to provide these numbers at the start of a project, but they lead to much better results.
 
 ![Diagram](img/diagram.png)
 
