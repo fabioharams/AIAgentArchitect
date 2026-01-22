@@ -22,6 +22,9 @@ Other file types that can be analyzed (with different output quality):
 
 If the document includes estimated volumetry (for example, users per day, requests per second, data size, retention time), the architecture and cost estimates will be more accurate. It can be difficult to provide these numbers at the start of a project, but they lead to much better results.
 
+This solution is a good example of how to use a multi‑agent architecture to solve the problem, using Microsoft Copilot Studio.
+
+
 ![Diagram](img/diagram.png)
 
 1) User submission → AI Agent Architect (Copilot Studio)
@@ -53,3 +56,11 @@ Else → pull public pricing to estimate.
 - Best‑practices aligned with each provider’s CAF/WAF
 - C4 diagrams
 - Estimated costs
+
+# Using Copilot Studio with Azure Credits #
+
+This solution use Microsoft Copilot Studio as the platform. I strongly recommend because it enables to use advanced features (connecting to MCP servers, publish on Microsoft Teams, etc) but it's possible to use Microsoft Copilot Chat  (but with limitations).
+If you have az Microsoft Azure Subscription then nit's possible to consume Azure credits for Copilot Studio. Please check the links bellow for more information:
+
+- [Copilot Studio - Pay-as-you-go pricing](https://azure.microsoft.com/en-us/pricing/details/copilot-studio/)
+- [Manage Copilot Studio credits and capacity](https://learn.microsoft.com/en-us/power-platform/admin/manage-copilot-studio-messages-capacity)
