@@ -78,19 +78,19 @@ If you never tried Copilot Studio before then I recommend to follow these steps 
 
 # Step 1 - Create your agent #
 
-1. Open your browser and access Copilot Studio usin https://copilotstudio.microsoft.com 
+1. Open your browser and access Copilot Studio using https://copilotstudio.microsoft.com 
 
 ![Open Copilot Studio](img/step11.png)
 
-2. On the left side click in **Agents** and then click on the right side in **+ Create blank agent** . This will start the wizard process.
+2. On the left side, click **Agents**, and then on the right side, click  **+ Create blank agent** . This will start the wizard process.
 
 ![Create blank agent](img/step12.png)
 
-3. In the **Details** click on **Edit** button and provide a **Name** for your Agent (e.g. AI Agent Architect) and **Description**. Also you can provide a image file for **Icon**.
+3. In **Details**, click the **Edit** button and provide a **Name** for your agent (e.g., AI Agent Architect) and a **Description**. You can also upload an image file for the **Icon**.
 
 ![Details](img/step13.png)
 
-4. Select the best agent model for your Agent. **GPT-5 Reasoning** offer great results and explanation but you can try other newest models. 
+4. Select the agent model. **GPT-5 Reasoning** offer great results and explanation but you can try other newest models. 
 
 ![Model](img/step14.png)
 
