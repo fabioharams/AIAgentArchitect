@@ -1,7 +1,7 @@
-# AI Agent Architect
+# AI Agent Architect #
 AI Agent Architect with expertise in reviewing document-driven projects, assessing and enforcing cloud best practices (across Microsoft Azure, Amazon AWS, Oracle Cloud and Google Cloud), and producing accurate, FinOps-aligned cost estimates to optimize cloud spend and governance.
 
-# Why an AI Agent Architect? #
+## Why an AI Agent Architect? ##
 
 Many customers are multi‑cloud today, and IT teams face several challenges:
 
@@ -11,7 +11,7 @@ Many customers are multi‑cloud today, and IT teams face several challenges:
 
 Recent AI models (especially since GPT‑3.5) have greatly improved the analysis process with high accuracy. This setup references ChatGPT 5.2, but you can easily switch to newer models as they become available. Another area that has advanced significantly is diagram generation — with better support for C4, flowcharts, and similar notations.
 
-# How the Agent works for this scenario #
+## How the Agent works for this scenario ##
 
 Normally, IT teams prepare documents that describe the architecture or planned deployments in formats like *.DOCX or *.PDF. This solution can extract information from the text inside these documents, and it can also analyze diagrams if they are included (for example, a proposed architecture or change diagram).
 Other file types that can be analyzed (with different output quality):
@@ -27,40 +27,53 @@ This solution is a good example of how to use a multi‑agent architecture to so
 
 ![Diagram](img/diagram.png)
 
-1) User submission → AI Agent Architect (Copilot Studio)
+1. User submission → AI Agent Architect (Copilot Studio)
 - Supported file types: DOCX, PDF, Terraform, PNG, YAML
 - Action: Parse, extract intent (providers, CAF/WAF hints, pricing clues, diagrams).
 
-2) Analyze & route to up to four cloud agents:
+2. Analyze & route to up to four cloud agents:
 
 - Microsoft Azure Agent (via MCP server of public docs)
 - Amazon AWS Agent (via MCP server of public docs)
 - Oracle Cloud OCI Agent (via public website — CAF/WAF)
 - Google Cloud GCP Agent (via public website — CAF/WAF)
 
-3) Each agent performs:
+3. Each agent performs:
 
 - Best practice checks: CAF/WAF, security, resiliency, operations.
 
-4) Cost estimation:
+4. Cost estimation:
 
 - If the document contains a pricing list → estimate from it.
 Else → pull public pricing to estimate.
 
-5) C4 diagramming:
+5. C4 diagramming:
 
 - Every agent can emit C4 diagrams. For multi‑cloud documents, multiple agents run in parallel and their models are aggregated.
 
-6) Final results back to the user:
+6. Final results back to the user:
 
 - Best‑practices aligned with each provider’s CAF/WAF
 - C4 diagrams
 - Estimated costs
 
-# Using Copilot Studio with Azure Credits #
+## Using Copilot Studio with Azure Credits ##
 
 This solution use Microsoft Copilot Studio as the platform. I strongly recommend because it enables to use advanced features (connecting to MCP servers, publish on Microsoft Teams, etc) but it's possible to use Microsoft Copilot Chat  (but with limitations).
 If you have az Microsoft Azure Subscription then nit's possible to consume Azure credits for Copilot Studio. Please check the links bellow for more information:
 
 - [Copilot Studio - Pay-as-you-go pricing](https://azure.microsoft.com/en-us/pricing/details/copilot-studio/)
 - [Manage Copilot Studio credits and capacity](https://learn.microsoft.com/en-us/power-platform/admin/manage-copilot-studio-messages-capacity)
+
+## Pricing List for accurate results ##
+
+Many enterprises with large cloud contracts receive special discounts for certain services, instance types, regions, and more.
+This repository does not include example pricing files. However, you can upload your invoice or spreadsheet with your custom pricing as Knowledge in Copilot Studio for each Agent (see details below).
+Doing this allows the Agents to reference your negotiated rates when estimating costs—so results better reflect your real‑world pricing.
+
+# Step 0 - Get Access to Copilot Studio #
+
+If you never tried Copilot Studio before then I recommend to follow these steps described here:
+- Get access to [Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-licensing-subscriptions)
+
+# Step 1 - 
