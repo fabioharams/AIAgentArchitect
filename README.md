@@ -76,4 +76,22 @@ Doing this allows the Agents to reference your negotiated rates when estimating 
 If you never tried Copilot Studio before then I recommend to follow these steps described here:
 - Get access to [Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-licensing-subscriptions)
 
-# Step 1 - 
+# Step 1 - Create your agent #
+
+1. Open your browser and access Copilot Studio usin https://copilotstudio.microsoft.com 
+
+![Open Copilot Studio](img/step11.png)
+
+2. On the left side click in **Agents** and then click on the right side in **+ Create blank agent** . This will start the wizard process.
+
+![Create blank agent](img/step12.png)
+
+3. In the **Details** click on **Edit** button and provide a **Name** for your Agent (e.g. AI Agent Architect) and **Description**. Also you can provide a image file for **Icon**.
+
+![Details](img/step13.png)
+
+4. Select the best agent model for your Agent. **GPT-5 Reasoning** offer great results and explanation but you can try other newest models. 
+
+![Model](img/step14.png)
+
+
