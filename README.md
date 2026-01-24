@@ -11,6 +11,14 @@ Many customers are multi‑cloud today, and IT teams face several challenges:
 
 Recent AI models (especially since GPT‑3.5) have greatly improved the analysis process with high accuracy. This setup references ChatGPT 5.2, but you can easily switch to newer models as they become available. Another area that has advanced significantly is diagram generation — with better support for C4, flowcharts, and similar notations.
 
+Special thanks to **Rafa Morales**, Solution Engineer at the Microsoft Innovation Hub Sao Paulo, who supported me with tips and best practices for developing an Agent using Microsoft Copilot Studio.
+
+> https://www.linkedin.com/in/rafamoralesms/
+
+This solution was developed using Microsoft Copilot Studio but it's possible to use Copilot Agent, without coding. The project using Copilot Chat is available bellow:
+
+> Soon (Not yet, sorry)
+
 ## How the Agent works for this scenario ##
 
 Normally, IT teams prepare documents that describe the architecture or planned deployments in formats like *.DOCX or *.PDF. This solution can extract information from the text inside these documents, and it can also analyze diagrams if they are included (for example, a proposed architecture or change diagram).
