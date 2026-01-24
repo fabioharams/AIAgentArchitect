@@ -53,6 +53,10 @@ This demo connects to the CAF (Cloud Adoption Framework) and WAF (Well‑Archite
 - If the document contains a pricing list → estimate from it.
 Else → pull public pricing to estimate.
 
+Many enterprises with large cloud contracts receive special discounts for certain services, instance types, regions, and more.
+This repository does not include example pricing files. However, you can upload your invoice or spreadsheet with your custom pricing as Knowledge in Copilot Studio for each Agent (see details below).
+Doing this allows the Agents to reference your negotiated rates when estimating costs—so results better reflect your real‑world pricing.
+
 5. C4 diagramming:
 
 - Every agent can emit C4 diagrams. For multi‑cloud documents, multiple agents run in parallel and their models are aggregated.
@@ -70,12 +74,6 @@ If you have a Microsoft Azure Subscription then it's possible to consume Azure c
 
 - [Copilot Studio - Pay-as-you-go pricing](https://azure.microsoft.com/en-us/pricing/details/copilot-studio/)
 - [Manage Copilot Studio credits and capacity](https://learn.microsoft.com/en-us/power-platform/admin/manage-copilot-studio-messages-capacity)
-
-## Pricing List for accurate results ##
-
-Many enterprises with large cloud contracts receive special discounts for certain services, instance types, regions, and more.
-This repository does not include example pricing files. However, you can upload your invoice or spreadsheet with your custom pricing as Knowledge in Copilot Studio for each Agent (see details below).
-Doing this allows the Agents to reference your negotiated rates when estimating costs—so results better reflect your real‑world pricing.
 
 # Step 0 - Get Access to Copilot Studio #
 
