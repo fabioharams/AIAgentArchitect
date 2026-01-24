@@ -38,6 +38,12 @@ This solution is a good example of how to use a multi‑agent architecture to so
 - Oracle Cloud OCI Agent (via public website — CAF/WAF)
 - Google Cloud GCP Agent (via public website — CAF/WAF)
 
+Microsoft and Amazon offer MCP servers for their technical libraries for free, and you can connect to them at no cost. As of the date of this publication, I have not found MCP servers from Google Cloud or Oracle Cloud (specifically for technical libraries, not for their cloud services).
+As a workaround, I am connecting to the publicly available technical documentation on their websites. It is not required to use MCP servers to access technical documentation.
+
+This demo connects to the CAF (Cloud Adoption Framework) and WAF (Well‑Architected Framework), which are the recommended reference frameworks from these cloud providers.
+
+
 3. Each agent performs:
 
 - Best practice checks: CAF/WAF, security, resiliency, operations.
@@ -60,7 +66,7 @@ Else → pull public pricing to estimate.
 ## Using Copilot Studio with Azure Credits ##
 
 This solution use Microsoft Copilot Studio as the platform. I strongly recommend because it enables to use advanced features (connecting to MCP servers, publish on Microsoft Teams, etc) but it's possible to use Microsoft Copilot Chat  (but with limitations).
-If you have az Microsoft Azure Subscription then nit's possible to consume Azure credits for Copilot Studio. Please check the links bellow for more information:
+If you have a Microsoft Azure Subscription then it's possible to consume Azure credits for Copilot Studio. Please check the links bellow for more information:
 
 - [Copilot Studio - Pay-as-you-go pricing](https://azure.microsoft.com/en-us/pricing/details/copilot-studio/)
 - [Manage Copilot Studio credits and capacity](https://learn.microsoft.com/en-us/power-platform/admin/manage-copilot-studio-messages-capacity)
@@ -90,7 +96,7 @@ If you never tried Copilot Studio before then I recommend to follow these steps 
 
 ![Details](img/step13.png)
 
-4. Select the agent model. **GPT-5 Reasoning** offer great results and explanation but you can try other newest models. 
+4. Select the agent model. **GPT-5 Reasoning** offer great results and explanation but you can try other newest model. 
 
 ![Model](img/step14.png)
 
