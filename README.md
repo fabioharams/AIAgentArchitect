@@ -527,3 +527,17 @@ Respond in the language requested by the user (default: English).
 Support Portuguese, Spanish, or any other language upon request.
 
 ***
+
+## Time to test ##
+
+On the right side of the AI Agent Architect, you will find a panel where you can test your agent. Try uploading some documents or project diagrams to evaluate the results. As of the date of this publication, it is not yet possible to visualize diagrams directly in the interface due to rendering limitations. However, you can use public websites to view the generated diagrams, such as:
+
+> https://www.plantuml.com/
+
+> https://mermaidviewer.com/
+
+## Publish and deploy the agent ##
+
+After all these steps then you can finally publish and deploy your agent. The link bellow has the official instructions:
+
+> https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web
