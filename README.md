@@ -58,6 +58,8 @@ This demo connects to the CAF (Cloud Adoption Framework) and WAF (Well‑Archite
 
 - Best practice checks: CAF/WAF, security, resiliency, operations.
 
+You can add, for each agent, a technical library or documentation containing the specific patterns your company follows. For example, in the Azure agent, you can include a document outlining cloud patterns (e.g., “Every VM must use Premium Disks”). Since each cloud provider used by your company may have its own standards and best practices, you can attach the relevant documents to the corresponding agent. 
+
 4. Cost estimation:
 
 - If the document contains a pricing list → estimate from it.
