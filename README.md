@@ -1,6 +1,8 @@
 # AI Agent Architect #
 AI Agent Architect with expertise in reviewing document-driven projects, assessing and enforcing cloud best practices (across Microsoft Azure, Amazon AWS, Oracle Cloud and Google Cloud), and producing accurate, FinOps-aligned cost estimates to optimize cloud spend and governance.
 
+At the Microsoft Innovation Hub in São Paulo, we receive many requests related to this scenario, and after discussing it with Rafa Morales (Solution Engineer at Microsoft), we agreed that Copilot Studio is a strong solution to address it.
+
 ## Why an AI Agent Architect? ##
 
 Many customers are multi‑cloud today, and IT teams face several challenges:
