@@ -11,7 +11,7 @@ Many customers are multi‑cloud today, and IT teams face several challenges:
 - Cost estimation: Estimating costs across multiple projects is tough but essential to build a solid FinOps strategy.
 - Time‑consuming reviews: Analyzing projects for best practices and cost optimization takes significant time, and you need to accelerate this work to keep up with IT demand.
 
-Recent AI models (especially since GPT‑3.5) have greatly improved the analysis process with high accuracy. This setup references ChatGPT 5.2, but you can easily switch to newer models as they become available. Another area that has advanced significantly is diagram generation — with better support for C4, flowcharts, and similar notations.
+Recent AI models (especially since GPT‑3.5) have greatly improved the analysis process with high accuracy. This setup references GPT-5 Chat, but you can easily switch to newer models as they become available. Another area that has advanced significantly is diagram generation — with better support for C4, flowcharts, and similar notations.
 
 Special thanks to **Rafa Morales**, Solution Engineer at the Microsoft Innovation Hub Sao Paulo, who supported me with tips and best practices for developing an Agent using Microsoft Copilot Studio.
 
