@@ -21,6 +21,12 @@ This solution was developed using Microsoft Copilot Studio but it's possible to 
 
 > Soon (Not yet, sorry)
 
+If you already have Copilot Studio, you can import the solution, make your adjustments, and start using it. Follow the link below to download it:
+
+[AI Agent Architect Solution](Solution/HaraAgent_1_0_0_3.zip)
+
+The steps bellow have instruction to deploy step-by-step.
+
 ## How the Agent works for this scenario ##
 
 Normally, IT teams prepare documents that describe the architecture or planned deployments in formats like *.DOCX or *.PDF. This solution can extract information from the text inside these documents, and it can also analyze diagrams if they are included (for example, a proposed architecture or change diagram).
