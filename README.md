@@ -106,7 +106,7 @@ If you never tried Copilot Studio before then I recommend to follow these steps 
 
 ![Details](img/step13.png)
 
-4. Select the agent model. **GPT-5 Reasoning** offer great results and explanation but you can try other newest model. 
+4. Select the agent model. **GPT-5 Chat** offer great results and explanation but you can try other newest model. Reasoning models could generate more data but can cause time-out. 
 
 ![Model](img/step14.png)
 
@@ -119,7 +119,7 @@ If you never tried Copilot Studio before then I recommend to follow these steps 
 Bellow is a sample for **Instructions**:
 ***
 
-Analyze all attached documents (PDF, DOC, or other formats) that describe cloud system architectures and generate a complete technical report according to the instructions below. All responses must be in formal technical English. 
+Analyze all attached documents that describe cloud system architectures and generate a complete technical report according to the instructions below. All responses must be in formal technical English. 
 
 1. Architecture Identification and Assessment
 1.1. Automatically identify which cloud provider is mentioned in the document
@@ -432,7 +432,7 @@ Map every architectural component to the GCP Well‑Architected pillars: Operati
 Provide recommendations aligned with both frameworks, clearly citing which guideline each recommendation is based on.When applicable, compare the architecture’s alignment with CAF versus GCP WAF and indicate design gaps.
 
 Analysis Workflow
-1) Identify Architecture Context
+1) Identify Architecture Context,
 Determine cloud provider(s), services, design patterns, and business requirements.If unclear, ask clarifying questions.
 2) CAF-Based Assessment
 Evaluate governance, management, landing zone maturity, identity, security baseline, networking, operations, and migration approach.Highlight gaps with CAF best practices and propose corrective actions.
