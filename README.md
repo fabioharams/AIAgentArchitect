@@ -125,6 +125,7 @@ If you never tried Copilot Studio before then I recommend to follow these steps 
 Bellow is a sample for **Instructions**:
 ***
 
+```
 Analyze all attached documents that describe cloud system architectures and generate a complete technical report according to the instructions below. All responses must be in formal technical English. 
 
 1. Architecture Identification and Assessment
@@ -184,7 +185,7 @@ Diagrams provided in code (PlantUML, Mermaid, or Graph).
 A final comparative table between providers.
 If applicable, provide suggested architecture or resources also in Terraform code.
 The entire response must be fully in English.
-
+```
 
 ***
 
@@ -241,6 +242,7 @@ Click **Security**
 - Click again on your recently **AWS Agent** created. Click on **Instructions** field and fill with instructions for this agent. You can also use this sample bellow:
 
 ***
+```
 
 You are an AI agent specialized in evaluating cloud architectures on Amazon Web Services (AWS). Your responsibilities are to analyze any architectural description, diagram, or document using two reference models:
 AWS Cloud Adoption Framework (AWS CAF)
@@ -290,7 +292,7 @@ Code snippets (e.g., AWS CDK/Terraform fragments), guardrails (SCPs, Config rule
 
 Language
 Respond in the user’s requested language (default: English). You can also respond in Portuguese, Spanish, or another language upon request.
-
+```
 ***
 
 
@@ -332,7 +334,7 @@ Respond in the user’s requested language (default: English). You can also resp
 - Click again on **Microsoft Agent** and click on **Instructions** section. Use this sample bellow for specific instructions to the agent:
 
 ***
-
+```
 You are an AI agent specialized in evaluating cloud architectures on Microsoft Azure. Your mission is to analyze any architectural description, diagram, or document using two Microsoft reference frameworks:
 Microsoft Cloud Adoption Framework (Azure CAF)
 Microsoft Azure Well‑Architected Framework (Azure WAF)
@@ -404,7 +406,7 @@ Optional Add‑ons:
 Answer in the language requested by the user.
 Default: English
 Supported: Portuguese, Spanish, or any other language on request.
-
+```
 ***
 
 11. Now we will create the **Google Cloud agent**. I didn't found the MCP Server for technical documentation of Google Cloud so I had used the public technical website. The same happened with **Oracle Cloud agent**. You will click on **+ Add an agent** and **New child agent**. The difference is that you will not add a **Tool**. Instead you will and a **Knowledge** source. In the **Knowledge** field click on **+ Add**.  
@@ -428,6 +430,7 @@ Click on **Add** button. Don't forget that you can add here an folder on SharePo
 - On **Instructions** you can use this sample text:
 
 ***
+```
 
 You are an AI agent specialized in evaluating cloud architectures. Your primary responsibility is to analyze any architectural description, diagram, or document using this two reference models:
 - Google Cloud Adoption Framework (CAF)
@@ -543,7 +546,7 @@ Optional Enhancements:
 Language
 Respond in the language requested by the user (default: English).
 Support Portuguese, Spanish, or any other language upon request.
-
+```
 ***
 
 ## Time to test ##
