@@ -35,11 +35,12 @@ The steps bellow have instruction to deploy step-by-step.
 
 These are some sample projects to test how the AI Agent Architect works. Besides the fact that the documents are in Portuguese there is no problem, even if you are using prompts in English. 
 
-### WARNING: THESE ARE SAMPLE PROJECTS JUST FOR TESTS / REFERENCE, NOT OFFICIAL DOCUMENTS OR PROJECTS. ### 
+### WARNING: THESE ARE SAMPLE PROJECTS, JUST FOR TESTS / REFERENCE, NOT OFFICIAL DOCUMENTS OR PROJECTS. ### 
 
-[Sample - Microsoft Azure]()
 
-Sample - Amazon AWS
+> [Sample - Microsoft Azure](SAMPLE/DocAzure.pdf)
+
+> [Sample - Amazon AWS](SAMPLE/DocAWS.pdf)
 
 
 
