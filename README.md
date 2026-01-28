@@ -31,6 +31,18 @@ If you already have Copilot Studio, you can download the solution, make your own
 
 The steps bellow have instruction to deploy step-by-step. 
 
+## Sample projects ##
+
+These are some sample projects to test how the AI Agent Architect works. Besides the fact that the documents are in Portuguese there is no problem, even if you are using prompts in English. 
+
+### WARNING: THESE ARE SAMPLE PROJECTS JUST FOR TESTS / REFERENCE, NOT OFFICIAL DOCUMENTS OR PROJECTS. ### 
+
+[Sample - Microsoft Azure]()
+
+Sample - Amazon AWS
+
+
+
 ## How the Agent works for this scenario ##
 
 Normally, IT teams prepare documents that describe the architecture or planned deployments in formats like *.DOCX or *.PDF. This solution can extract information from the text inside these documents, and it can also analyze diagrams if they are included (for example, a proposed architecture or change diagram).
