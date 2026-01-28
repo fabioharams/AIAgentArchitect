@@ -594,3 +594,5 @@ Some screenshots, using Microsoft Teams:
 After all these steps then you can finally publish and deploy your agent. The link bellow has the official instructions:
 
 > https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web
+
+> https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/channels
