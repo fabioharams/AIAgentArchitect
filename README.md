@@ -25,7 +25,9 @@ This solution was developed using Microsoft Copilot Studio but it's possible to 
 
 If you already have Copilot Studio, you can download the solution, make your own adjustments, and deploy it in your environment. Follow the steps below to learn how to do this:
 
-[Import the Solution on Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-import-export#import-the-solution-with-your-agent)
+### WARNING: THIS IS A SAMPLE PROJECT, WITHOUT ANY OFFICIAL SUPPORT ### 
+
+[Link About How to Import the Solution on Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-import-export#import-the-solution-with-your-agent)
 
 [Download the AI Agent Architect Solution](Solution/HaraAgent_1_0_0_3.zip)
 
