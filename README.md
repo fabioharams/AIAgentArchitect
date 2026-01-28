@@ -577,13 +577,13 @@ On the right side of the AI Agent Architect, you will find a panel where you can
 
 Some screenshots, using Microsoft Teams:
 
-[DEMO 1](img/demo1.png)
+![DEMO 1](img/demo1.png)
 
-[DEMO 2](img/demo2.png)
+![DEMO 2](img/demo2.png)
 
-[DEMO 3](img/demo3.png)
+![DEMO 3](img/demo3.png)
 
-[DEMO 4](img/demo4.png)
+![DEMO 4](img/demo4.png)
 
 
 
