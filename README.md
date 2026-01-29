@@ -3,7 +3,7 @@ AI Agent Architect with expertise in reviewing document-driven projects, assessi
 
 At the Microsoft Innovation Hub in São Paulo, we receive many requests related to this scenario, and after discussing it with Rafa Morales (Solution Engineer at Microsoft), we agreed that Copilot Studio is a strong solution to address it. We have been conducting many engagements over the past few months related to this scenario, and we hope that this solution can help you.
 
-## Why an AI Agent Architect? ##
+## Why an AI Agent Architect for FinOps? ##
 
 Many customers are multi‑cloud today, and IT teams face several challenges:
 
