@@ -19,7 +19,9 @@ Special thanks to **Rafa Morales**, Solution Engineer at the Microsoft Innovatio
 
 This solution was developed using Microsoft Copilot Studio but it's possible to use Copilot Agent, without coding. The project using Copilot Chat is available bellow:
 
-> Soon (Not yet, sorry)
+> AI Agent Architect - Lite version using Microsoft Copilot Chat
+
+> [Link](https://github.com/fabioharams/AIAgentArchitect-Lite) 
 
 ## Import this solution ##
 
