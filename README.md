@@ -48,6 +48,8 @@ These are some sample projects to test how the AI Agent Architect works. Besides
 
 > [Sample - Amazon AWS](SAMPLE/DocAWS.pdf)
 
+> [Sample - Vmware](SAMPLE/DocVmware.pdf)
+
 
 
 ## How the Agent works for this scenario ##
